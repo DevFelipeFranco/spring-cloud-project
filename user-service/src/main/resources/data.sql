@@ -1,0 +1,10 @@
+# CREATE TABLE CINE.USER
+# (
+#     ID        INT NOT NULL AUTO_INCREMENT,
+#     NAME      VARCHAR(60),
+#     LAST_NAME VARCHAR(60),
+#     CONSTRAINT USER_ID_PK PRIMARY KEY (ID)
+# );
+
+INSERT INTO CINE.USER (id, NAME, last_name)
+VALUES (1, 'Jorge', 'Perez');
